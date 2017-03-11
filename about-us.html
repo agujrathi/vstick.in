@@ -45,6 +45,11 @@
 		<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
 		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
 		<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+
+<style>
+.mySlides {display:none;}
+</style>
 
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="css/skins/skin-digital-agency.css">	
@@ -192,7 +197,7 @@
 					<hr>
 						<div class="col-md-12">
 							<h2 class="word-rotator-title">
-								<strong>V-Stick :  <strong>
+								<strong>V-Stick :&nbsp&nbsp
 									<span class="word-rotate" data-plugin-options='{"delay": 2000}'>
 										<span class="word-rotate-items">
 											<span><font color="green">Uinque Blend.</font></span>
@@ -206,8 +211,8 @@
 					</div>
 					<div class="row">
 						<div class="col-md-10">
-							<p class="lead">
-								Ceremony Gıda Sanayi ve Ticaret A.Ş. decided to invest in Sugarless Strip Gum production in 2013 and created its entire infrastructure in 2014 and in December 2014, started to produce as a 100% local capital company in Turkey.
+							<p>
+								Vstick decided to invest in Sugarless Strip Gum production in 2013 and created its entire infrastructure in 2014 and in December 2014, started to produce range of chewing gums with unique flavors whoes taste lasts longer than longest.<br><br>
 								With the 30 years of knowledge and experience of our company management in the food sector, chocolate in particular, Ceremony Gıda holds an ambitious position in the production and sales of Strip Gum, with an export network extending to the Middle East, Balkans, African and Asian continents.
 							</p>
 						</div>
@@ -226,10 +231,19 @@
 							<h3 class="heading-primary"><strong>Who</strong> We Are</h3>
 							<p>Our main goal is to reach 75 Tonnes daily production volume by 2018, and become the largest scale manufacturer in our region. In addition, by closely following the global world in terms of technology and service, first class production and first class service will be at the top of our priorities. Our greatest capitals to achieve these objectives are not other than our work desires and wishes.
 							   Our facility, with a total area of 40.000 m2, 13.000 m2 of which is closed area, has been designed in order to carry out production in extremely hygienic conditions.</p>
-							<p>With our 7Stick brand, developed as a result of long work and marketing activities, we have taken as a goal to present natural fruit flavours in our products on the market to the tastes of our consumers. As Ceremony Gıda Sanayi ve Ticaret A.Ş, our corporate policy is to combine high technology with high quality products and ensure continuity of them.</p>  
+							<p>With our 7Stick brand, developed as a result of long work and marketing activities, we have taken as a goal to present natural fruit flavours in our products on the market to the tastes of our consumers. At Vstick, our corporate policy is to combine high technology with high quality products and ensure continuity of them.</p>  
 						</div>
 						<div class="col-md-3">
-							<img src="img/img4.jpg" width="250">
+
+							
+							<div class="w3-content w3-section" style="max-width:500px">
+												  <img class="mySlides" src="img/orange.png" style="width:100%">
+												  <img class="mySlides" src="img/cnm.png" style="width:100%">
+												  <img class="mySlides" src="img/sm.png" style="width:100%">
+												  <img class="mySlides" src="img/wm.png" style="width:100%">
+												</div>
+
+
 						</div>
 					</div>	
 					
@@ -240,7 +254,7 @@
 	  				<div class="col-md-6 history-right" data-appear-animation="fadeInLeft" border="1px solid black"> 
 					    <h3 class="heading-primary"><strong>Mission </strong> </h3>
 							<p style="text-align:justify">
-								In addition to becoming the largest manufacturer in the region, our mission as Ceremony Gıda is to contribute to the development of the gum industry by presenting products that our customers can consume with peace of mind, where taste is on the forefront, and where high technology and 100% hygienic conditions are used.
+								In addition to becoming the largest manufacturer in the region, our mission as Vstick is to contribute to the development of the gum industry by presenting products that our customers can consume with peace of mind, where taste is on the forefront, and where high technology and 100% hygienic conditions are used.
 							</p>
 					</div>
 
@@ -248,7 +262,7 @@
 
 						<h3 class="heading-primary"><strong>Vision </strong> </h3>
 							<p style="text-align:justify">
-								As Cermeony Gıda, our Vision is to ensure Unconditional Customers Satisfaction, to move forward as being the only choice of our consumers and to develop gum products combined with taste.
+								As Vstick, our Vision is to ensure Unconditional Customers Satisfaction, to move forward as being the only choice of our consumers and to develop gum products combined with taste.
 							</p>
 					</div>
 					
@@ -290,7 +304,24 @@
 						</div>
 					</div>
 				</div>
-			</footer>	
+			</footer>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 	
 			<!-- Vendor -->
 		<script src="vendor/jquery/jquery.min.js"></script>

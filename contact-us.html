@@ -45,6 +45,7 @@
 		<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
 		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
 		<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css">
+<!-- 		<link rel="stylesheet" href="css/sticky-form.css"> -->
 
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="css/skins/skin-digital-agency.css">	
@@ -211,10 +212,9 @@
 							</div>
 
 							<h2 class="mb-sm mt-sm"><strong>Contact</strong> Us</h2>
-							<form id="contactForm" action="https://formspree.io/abhitechsavy@gmail.com" method="POST">
+							<form action="https://formspree.io/abhitechsavy@gmail.com" method="POST">
+							<input type="hidden" name="_next" value="http://vstick.in/contact-us.html" />
 
-							<!-- <input type="hidden" name="_subject" value="Website Enquiry" /> -->
-							
 								<div class="row">
 									<div class="form-group">
 										<div class="col-md-6">
@@ -281,7 +281,7 @@
 
 			</div>
 			</div>
-	</div>		
+	</div>
 
 	<footer class="short" id="footer">
 				<div class="container">
@@ -320,6 +320,7 @@
 					</div>
 				</div>
 			</footer>
+
 	
 			<!-- Vendor -->
 		<script src="vendor/jquery/jquery.min.js"></script>
@@ -379,8 +380,8 @@
 
 
 			// Map Initial Location
-			var initLatitude = 40.75198;
-			var initLongitude = -73.96978;
+			var initLatitude = 18.533606;
+			var initLongitude = 73.88501;
 
 			// Map Extended Settings
 			var mapSettings = {
