@@ -1,6 +1,6 @@
 @media (min-width: 748px) {
   .title-with-video-custom {
-    margin-top: -215px !important;
+    margin-top: 0px !important;
   }
   .title-with-video-custom h1 {
     color: #FFF;
@@ -23,7 +23,8 @@ section.section-color-custom {
 }
 
 .divider-top-section-custom {
-  margin-bottom: -50px !important;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .google-map {
@@ -36,7 +37,7 @@ section.section-color-custom {
 }
 #footer hr.solid {
   background: #1b1b1b none repeat scroll 0 0;
-  margin-top: -10px;
+  margin-top: 0px;
 }
 #footer h5 {
   font-size: 15px;
@@ -52,4 +53,9 @@ section.section-color-custom {
   border-right: 1px solid #1b1b1b;
   padding: 0 20px 3px 0;
   display: block;
+}
+
+#body{
+    padding: 0;
+    margin: 0;
 }
